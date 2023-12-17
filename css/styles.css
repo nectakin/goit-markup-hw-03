@@ -64,6 +64,7 @@ span.studio{
     border: none;
     display: block;
     margin: auto;
+    min-width: 169px;
 }
 
 .button:hover,
@@ -77,8 +78,11 @@ ul{
 
 .container {
     width: 1158px;
-    margin: 0;
+    margin: 0 auto;
     padding: 0 15px;
+}
+.header{
+    border-bottom: 1px solid #e7e9fc;
 }
 .header-nav-list{
     display: flex;
@@ -235,7 +239,8 @@ ul{
 
 
 .portfolio{
-    padding: 96px 0 120px;
+    padding-top: 120px;
+    padding-bottom: 120px
 }
 
 .portfolio-list{
@@ -251,7 +256,7 @@ ul{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .app-wrap{
