@@ -84,6 +84,9 @@ ul{
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
+.header-container{
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-nav-list{
     display: flex;
     gap: 40px;
@@ -152,7 +155,7 @@ ul{
 
 
 
-.text-header{
+.visually-hidden{
     position: absolute;
     width: 1px;
     height: 1px;
