@@ -94,7 +94,7 @@ ul{
 } 
 
 .header-container {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     
     /* box-sizing: border-box; */
